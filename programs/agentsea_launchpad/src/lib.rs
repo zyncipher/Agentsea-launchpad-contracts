@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Token, TokenAccount, Transfer, Mint};
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT");
 
 #[program]
 pub mod agentsea_launchpad {

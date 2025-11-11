@@ -1,0 +1,79 @@
+Error: Function _ZN112_$LT$solana_program..instruction..InstructionError$u20$as$u20$solana_frozen_abi..abi_example..AbiEnumVisitor$GT$13visit_for_abi17hf8597cd62ec97ea2E Stack offset of 4608 exceeded max offset of 4096 by 512 bytes, please minimize large stack variables
+    Finished release [optimized] target(s) in 0.40s
+Deploying workspace: http://localhost:8899
+Upgrade authority: /Users/purvachaudhari/.config/solana/id.json
+Deploying program "agentsea_launchpad"...
+Program path: /Users/purvachaudhari/Desktop/blockchain/erc-8004-contracts/agentsea_launchpad/target/deploy/agentsea_launchpad.so...
+Program Id: DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT
+
+Deploy success
+
+Found a 'test' script in the Anchor.toml. Running it as a test suite!
+
+Running test suite: "/Users/purvachaudhari/Desktop/blockchain/erc-8004-contracts/agentsea_launchpad/Anchor.toml"
+
+yarn run v1.22.21
+warning ../../../../package.json: No license field
+$ /Users/purvachaudhari/Desktop/blockchain/erc-8004-contracts/agentsea_launchpad/node_modules/.bin/ts-mocha -p ./tsconfig.json -t 1000000 'tests/**/*.ts'
+
+
+  agentsea_launchpad
+Launchpad initialized: 52C4mSGXfrbiYN9YMBxVRA3tZQWcqpRUjL4FMRnjmHyqc51JodcEwWFKkir2VKfTKrAQ2Lz5vt88MWuxQR8NvV8C
+Launchpad state: {
+  authority: PublicKey [PublicKey(BNfgivVYkPaLJPaJQnFHUk4zDokm71LkT783TqZi2GCj)] {
+    _bn: <BN: 9a21ceb0a108ce5b82dd7ecc6e85b9c0dd96c8d53ec7afcf437dbac8b082ba7c>
+  },
+  agentCount: <BN: 0>,
+  minStakeAmount: <BN: 3b9aca00>,
+  agentsTokenMint: PublicKey [PublicKey(5B3HV2si2Q3v7x3cknqq5LJJmHSUYPaA1TLhJAW9qNUM)] {
+    _bn: <BN: 3e0123779b239f37563f5a2b080b78cd4ab862eb741416ea920a87990e7b3606>
+  }
+}
+    ✔ Initialize launchpad (917ms)
+Agent registered: 8xbKU4p8ByfrrHS9JeifhzHXhnT9zevQtKhYr9KGtPpGTkkWwmxPytdcEq4DoqCNhmYjMrmETqMFtMWKZ2AVUHJ
+Agent: {
+  agentId: <BN: 0>,
+  owner: PublicKey [PublicKey(BNfgivVYkPaLJPaJQnFHUk4zDokm71LkT783TqZi2GCj)] {
+    _bn: <BN: 9a21ceb0a108ce5b82dd7ecc6e85b9c0dd96c8d53ec7afcf437dbac8b082ba7c>
+  },
+  name: 'AI Trading Bot',
+  metadataUri: 'https://ipfs.io/ipfs/QmExample',
+  description: 'An AI agent that trades cryptocurrencies',
+  totalStaked: <BN: 0>,
+  reputationScore: 0,
+  feedbackCount: 0,
+  isActive: true,
+  createdAt: <BN: 6913242f>
+}
+    ✔ Register an agent (477ms)
+Tokens staked: vW1W5sNT7PEW1uJMUUmVco4CVWHHnQSmo1XXXZfQKQwS1nFQkFi32DjcRRnBWcwojiw6Xvb39GeQWgGFydHhK8n
+Stake account: {
+  agent: PublicKey [PublicKey(Hhk6RCozcYJhUQk4BzckhtDZyQqd1SWc1stE3gMupobq)] {
+    _bn: <BN: f82af2f4e687e9c1108b9129fb915503f9117f5cd1ff39ffe7c5307a82bde534>
+  },
+  staker: PublicKey [PublicKey(BNfgivVYkPaLJPaJQnFHUk4zDokm71LkT783TqZi2GCj)] {
+    _bn: <BN: 9a21ceb0a108ce5b82dd7ecc6e85b9c0dd96c8d53ec7afcf437dbac8b082ba7c>
+  },
+  amount: <BN: 12a05f200>,
+  stakedAt: <BN: 69132430>
+}
+    ✔ Stake tokens to agent (1442ms)
+Feedback given: 3KxBWnuZTgEZryipPC8Fu8BUhN6LYT3QU4VoJEV4mTaTwBMsmb9sGZTv6mMT8HFTyE6oPPva8tRNK65Ygv1bS9AH
+Agent reputation score: 85
+Feedback: {
+  agent: PublicKey [PublicKey(Hhk6RCozcYJhUQk4BzckhtDZyQqd1SWc1stE3gMupobq)] {
+    _bn: <BN: f82af2f4e687e9c1108b9129fb915503f9117f5cd1ff39ffe7c5307a82bde534>
+  },
+  reviewer: PublicKey [PublicKey(BNfgivVYkPaLJPaJQnFHUk4zDokm71LkT783TqZi2GCj)] {
+    _bn: <BN: 9a21ceb0a108ce5b82dd7ecc6e85b9c0dd96c8d53ec7afcf437dbac8b082ba7c>
+  },
+  score: 85,
+  commentUri: 'https://feedback.example.com/review1',
+  timestamp: <BN: 69132431>
+}
+    ✔ Give feedback to agent (474ms)
+
+
+  4 passing (3s)
+
+Done in 5.35s.

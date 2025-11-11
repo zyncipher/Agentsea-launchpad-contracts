@@ -2,14 +2,17 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-agentsea_launchpad = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+agentsea_launchpad = "DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT"
+
+[programs.devnet]
+agentsea_launchpad = "DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
-wallet = "/Users/purvachaudhari/.config/solana/id.json"
+cluster = "Devnet"
+wallet = "./devnet-deployer.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

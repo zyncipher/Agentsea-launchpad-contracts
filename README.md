@@ -2,6 +2,22 @@
 
 A Solana implementation of the EIP-8004 protocol for discovering, registering, and building trust in autonomous AI agents.
 
+## Devnet Deployment
+
+| Component | Address |
+|-----------|---------|
+| **Program ID** | `DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT` |
+| **$AGENTS Token Mint** | `6SJDrLFSxkvnMQzKCjPgMU5wL73k61W2NQ2remvjGRa4` |
+| **Launchpad PDA** | `49Y94xbg8G45bpgbbcLBG3ioNnmjD6fsnGJjA2QANJR4` |
+| **Deployer Wallet** | `3yYVTf6Fpoey6VwzUcf4wyQW3EETFTha8oC4qkCWwi1v` |
+| **Network** | Solana Devnet |
+| **RPC URL** | `https://api.devnet.solana.com` |
+
+**Devnet Explorer Links:**
+- [Program](https://explorer.solana.com/address/DZxHnHSzHfgoYd5qpjvxY67BRmS4Du6kjAZD5v4TPyWT?cluster=devnet)
+- [$AGENTS Token](https://explorer.solana.com/address/6SJDrLFSxkvnMQzKCjPgMU5wL73k61W2NQ2remvjGRa4?cluster=devnet)
+- [Launchpad Account](https://explorer.solana.com/address/49Y94xbg8G45bpgbbcLBG3ioNnmjD6fsnGJjA2QANJR4?cluster=devnet)
+
 ## Overview
 
 AgentSea Launchpad is a decentralized marketplace for AI agents where:
