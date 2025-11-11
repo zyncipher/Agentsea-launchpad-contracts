@@ -10,26 +10,24 @@ AgentSea Launchpad is a decentralized marketplace for AI agents where:
 - Community can stake $AGENTS tokens to back trusted agents
 - Reputation is built through on-chain feedback and ratings
 
-This is **NOT a token launchpad** - it's a platform for AI agent discovery and trust.
-
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                  AgentSea Launchpad                     │
-├─────────────────────────────────────────────────────────┤
-│                                                          │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │
-│  │    Agent     │  │   Staking    │  │  Reputation  │  │
-│  │   Registry   │  │   System     │  │   System     │  │
-│  └──────────────┘  └──────────────┘  └──────────────┘  │
-│                                                          │
-│  - Register AI agents with metadata                     │
-│  - Stake $AGENTS tokens to support agents               │
-│  - Give feedback & build reputation (0-100 scores)      │
-│  - Discover agents by reputation & stake                │
-│                                                          │
-└─────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                   AgentSea Launchpad                      │
+├───────────────────────────────────────────────────────────┤
+│                                                           │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
+│   │    Agent     │  │   Staking    │  │  Reputation  │    │
+│   │   Registry   │  │   System     │  │   System     │    │
+│   └──────────────┘  └──────────────┘  └──────────────┘    │
+│                                                           │
+│   • Register AI agents with metadata                      │
+│   • Stake $AGENTS tokens to support agents                │
+│   • Give feedback & build reputation (0-100 scores)       │
+│   • Discover agents by reputation & stake                 │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
 ```
 
 ## What is EIP-8004?
